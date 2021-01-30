@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Тестове завдання на позицію Junior Software Developer (Інтерна) в компанію Lisovary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SPA з хостингом на firebase [клац](https://test-assigment-lisovary-chakra.web.app/)
 
-## Available Scripts
+## На чому я писав
 
-In the project directory, you can run:
+У цьому проєкті я використав React, з такими бібліотеками як:
 
-### `yarn start`
+- react-router-dom
+- chakra-ui
+- react-date-picker
+- husky
+  та інші
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Усі таски, оновлюються в той самий момент, коли пише користувач, не треба
+клікати на додаткові кнопки
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Проєкт повністю responsive, на ПК і смартфонах виглядає бумбічєскі
 
-### `yarn test`
+## Task 1
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Трикутники
 
-### `yarn build`
+простий цикл, який будує спочатку пробіли, потім ставить знак (який вибрав
+користувач) та ставить перенос стрічки.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Task 2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. НСД для 4х чисел
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Думав спочатку робити через Евкліда, але оскільки він рекусивний, а нам треба
+знайти аж від 4-ох змінних НСД, то програма просто зависала, тому я вирішив все
+таки зробити рекурсією але трошки простіше
 
-### `yarn eject`
+## Task 3
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 3. День тижня в році
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Підключив бібліотеку для вибору дати з календарем, а також локалізував, потім
+просто беру число дня тижня цього дня, та використовую його як індекс масиву з
+нормалізованим ім'ям цього дня
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Task 4
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 4. Розпарсити математичний вираз
 
-## Learn More
+Проходив це на алгоритмах, моя реалізація цього методу виграла у конкурсі
+присвяченому цьому методу, там були і степені і множення і від'ємні числа, але і
+написаний він був на пітоні (python). Отже в чому суть, людина вводить свій
+приклад, ми спочатку маєм переробити його у постфіксний вигляд, а-ля 2 + 2 - 6
+--> 2 2 6 - +. А далі йде простий перебор...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Task 5
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 5. Поміняти місцями без спеціальних операторів
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Не дуже зрозумів суть завдання, але я залишив свій коментар, що якби не було
+state-у, я б простими арифметичними діями, поміняв місцями дві змінні.
