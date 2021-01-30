@@ -1,0 +1,10 @@
+.logo,
+.social {
+  transition: color 250ms;
+}
+
+.logo:hover,
+.social:hover,
+.menu:hover {
+  color: #d53f8c;
+}

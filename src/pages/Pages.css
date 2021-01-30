@@ -1,0 +1,20 @@
+.preText {
+  padding-top: 15px;
+  font-size: 1.5rem;
+}
+
+.date-picker .react-calendar__tile--active {
+  background: #d53f8c;
+}
+
+.date-picker .react-calendar__tile--now {
+  background: #e2e8f0;
+  transition: all 0.2s ease;
+  color: #000;
+}
+
+.date-picker .react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #edf2f7;
+  color: #d53f8c;
+}
