@@ -1,26 +1,5 @@
-import {
-  Box,
-  Button,
-  Divider,
-  Flex,
-  Heading,
-  HStack,
-  IconButton,
-  Menu,
-  MenuButton,
-  MenuDivider,
-  MenuItem,
-  MenuList,
-  Stack,
-} from "@chakra-ui/react";
+import { Divider, Flex } from "@chakra-ui/react";
 import React from "react";
-import {
-  FaTelegramPlane,
-  FaInstagram,
-  FaLinkedin,
-  FaArrowDown,
-} from "react-icons/fa";
-import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
 import HeaderMenu from "./HeaderMenu";
 import Logo from "./Logo";
