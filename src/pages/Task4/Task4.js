@@ -5,7 +5,7 @@ import ContentText from "../../components/ContentText";
 import HeadingText from "../../components/HeadingText";
 
 const Task4 = () => {
-  const [value, setValue] = useState("1+(2-6)");
+  const [value, setValue] = useState("1+(2-(6+4))");
   const handleChange = (event) => setValue(event.target.value);
 
   return (
@@ -18,7 +18,7 @@ const Task4 = () => {
       <ContentText title="realisation" column gap={35}>
         <Input
           variant="filled"
-          placeholder="Ex: 1+(2-6)"
+          placeholder="Ex: 1+(2-(6+4))"
           value={value}
           onChange={handleChange}
           isInvalid={value.length === 0}
